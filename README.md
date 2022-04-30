@@ -1,8 +1,5 @@
 # sat-arm
 
-```bash
-git clone https://github.com/suborbital/sat.git
-cd sat
-env GOOS=linux GOARCH=arm64 go build -o ../sat-arm64 -tags netgo,wasmtime .
-```
+This an arm build of [Sat]() for RaspberryPi. See https://github.com/bots-garden/rpi-docs/wiki/Build-Sat-on-a-RPI-4
+
 
